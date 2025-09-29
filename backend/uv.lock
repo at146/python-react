@@ -89,7 +89,7 @@ requires-dist = [
     { name = "pydantic-settings", specifier = "==2.9.1" },
     { name = "pyjwt", specifier = "==2.10.1" },
     { name = "python-multipart", specifier = "==0.0.20" },
-    { name = "sentry-sdk", extras = ["fastapi"], specifier = "==1.45.1" },
+    { name = "sentry-sdk", extras = ["fastapi"], specifier = "==2.39.0" },
     { name = "sqlmodel", specifier = "==0.0.24" },
     { name = "tenacity", specifier = "==8.5.0" },
 ]
@@ -918,15 +918,15 @@ wheels = [
 
 [[package]]
 name = "sentry-sdk"
-version = "1.45.1"
+version = "2.39.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "certifi" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c8/28/02c0cd9184f9108e3c52519f9628b215077a3854240e0b17ae845e664855/sentry_sdk-1.45.1.tar.gz", hash = "sha256:a16c997c0f4e3df63c0fc5e4207ccb1ab37900433e0f72fef88315d317829a26", size = 244774, upload-time = "2024-07-26T13:48:32.375Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4c/72/43294fa4bdd75c51610b5104a3ff834459ba653abb415150aa7826a249dd/sentry_sdk-2.39.0.tar.gz", hash = "sha256:8c185854d111f47f329ab6bc35993f28f7a6b7114db64aa426b326998cfa14e9", size = 348556, upload-time = "2025-09-25T09:15:39.064Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fe/9f/105366a122efa93f0cb1914f841747d160788e4d022d0488d2d44c2ba26c/sentry_sdk-1.45.1-py2.py3-none-any.whl", hash = "sha256:608887855ccfe39032bfd03936e3a1c4f4fc99b3a4ac49ced54a4220de61c9c1", size = 267163, upload-time = "2024-07-26T13:48:29.38Z" },
+    { url = "https://files.pythonhosted.org/packages/dd/44/4356cc64246ba7b2b920f7c97a85c3c52748e213e250b512ee8152eb559d/sentry_sdk-2.39.0-py2.py3-none-any.whl", hash = "sha256:ba655ca5e57b41569b18e2a5552cb3375209760a5d332cdd87c6c3f28f729602", size = 370851, upload-time = "2025-09-25T09:15:36.35Z" },
 ]
 
 [package.optional-dependencies]
