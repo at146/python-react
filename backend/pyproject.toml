@@ -14,7 +14,7 @@ dependencies = [
     "jinja2==3.1.6",
     "alembic==1.15.2",
     "httpx==0.28.1",
-    "psycopg[binary]==3.2.7",
+    "psycopg[binary]==3.2.12",
     "sqlmodel==0.0.24",
     # Pin bcrypt until passlib supports the latest
     "bcrypt==4.3.0",
